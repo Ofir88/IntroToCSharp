@@ -54,7 +54,7 @@ namespace Excercise_1
         /// the function returns a list of all the functions the dictionary has
         /// </summary>
         /// <returns></returns>
-        public List<string> getAllMissions()
+        public List<string> GetAllMissions()
         {
             return dic.Keys.ToList();
         }
