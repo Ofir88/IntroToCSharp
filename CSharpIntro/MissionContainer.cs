@@ -11,7 +11,7 @@ namespace Excercise_1
     /// <param name="x"></param>
     /// <returns></returns>
     delegate double CalcDelegate(double x);
-    class FunctionsContainer
+    class MissionContainer
     {
         /// <summary>
         /// the dictionary will map from the string we need to the matching delagate
@@ -20,7 +20,7 @@ namespace Excercise_1
         /// <summary>
         /// constructor- initializing the dictionary
         /// </summary>
-        public FunctionsContainer()
+        public MissionContainer()
         {
             dic = new Dictionary<string, CalcDelegate>();
         }
@@ -54,7 +54,7 @@ namespace Excercise_1
         /// the function returns a list of all the functions the dictionary has
         /// </summary>
         /// <returns></returns>
-        public List<string> GetAllMissions()
+        public List<string> getAllMissions()
         {
             return dic.Keys.ToList();
         }

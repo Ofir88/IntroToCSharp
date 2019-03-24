@@ -16,7 +16,7 @@ namespace Excercise_1
             }
         }
 
-        public static void PrintAvailableFunctions(FunctionsContainer container)
+        public static void PrintAvailableFunctions(MissionContainer container)
         {
             var fuctionListNames = container.getAllMissions();
             Console.WriteLine("All Available Functions:");
@@ -28,7 +28,7 @@ namespace Excercise_1
         }
         public static void Main(string[] args)
         {
-            FunctionsContainer funcList = new FunctionsContainer();     // Creating the mission conatiner
+            MissionContainer funcList = new MissionContainer();     // Creating the mission conatiner
             funcList["Double"] = val => val * 2;                    // Double the Value
             funcList["Triple"] = val => val * 3;                    // Triple the Value
             funcList["Square"] = val => val * val;                  // Square the Value
@@ -102,6 +102,7 @@ namespace Excercise_1
             RunMissions(missionList, 2);
 
             PrintAvailableFunctions(funcList);
+            Console.ReadKey();
         }
     }
 }

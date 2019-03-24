@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComposedMission.cs" />
-    <Compile Include="FunctionsContainer.cs" />
+    <Compile Include="MissionContainer.cs" />
     <Compile Include="IMission.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

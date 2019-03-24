@@ -1,0 +1,23 @@
+commit 75ea12ac68fb780e434b2cca4115c633b1d1c679
+Author: Ofir Henig <ofir888800@gmail.com>
+Date:   Sun Mar 24 19:56:06 2019 +0200
+
+    coding style
+
+commit 69c6c64ff89a8b3ab9ce766b34a413a2dbfa7ce4
+Author: Ofir Henig <ofir888800@gmail.com>
+Date:   Sun Mar 24 19:53:48 2019 +0200
+
+    after notes
+
+commit 95d1d3c8108f42c194d61d2484a324b2521b8d6f
+Author: Ofir Henig <ofir888800@gmail.com>
+Date:   Sun Mar 24 19:16:57 2019 +0200
+
+    before notes
+
+commit b0d08042eaab14860313bc02e7bb0c8e16de349e
+Author: Ofir88 <46543697+Ofir88@users.noreply.github.com>
+Date:   Sun Mar 24 18:57:42 2019 +0200
+
+    Initial commit
